@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex回</title>
+</head>
+<body>
+	<style>
+		html,body{
+			padding: 0;
+			margin: 0;
+			height: 100%;
+		}
+		body{
+			display: -webkit-flex;
+			display: flex;
+			align-items: center;
+			justify-content:center;
+		}
+		#parent{
+			width: 200px;
+			height:200px;
+			background-color: red;
+		}
+		#child{
+			margin: 50px;
+			width: 100px;
+			height: 100px;
+			background-color: gold;
+		}
+		
+	</style>
+
+
+	<div id="parent">
+		<div id="child"></div>
+	</div>
+</body>
+</html>
